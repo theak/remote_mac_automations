@@ -5,7 +5,7 @@
     <key>Label</key>
     <string>com.ak.chill</string>
     <key>Program</key>
-    <string>/Users/akshayk/dev/chill/app.py</string>
+    <string>/Users/akshayk/dev/remote_mac_automations/app.py</string>
     <key>KeepAlive</key>
     <true/>
   </dict>
