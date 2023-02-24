@@ -4,7 +4,7 @@ from flask import Flask
 
 import subprocess
 
-SCRIPT_TMP = "/Users/akshayk/dev/chill/%s.scpt"
+SCRIPT_TMP = "/Users/akshayk/dev/remote_mac_automations/%s.scpt"
 
 app = Flask(__name__)
 
