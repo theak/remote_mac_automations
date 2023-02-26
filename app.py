@@ -52,7 +52,12 @@ def kodi():
 def next():
     subprocess.Popen(['osascript', SCRIPT_TMP % 'next'])
     return 'OK'
-    
+
+@app.route("/prev")
+def next():
+    subprocess.Popen(['osascript', SCRIPT_TMP % 'prev'])
+    return 'OK'
+
 @app.route("/ping")
 def ping():
     return 'OK'
