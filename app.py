@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/python3
 
 from flask import Flask
 
@@ -54,7 +54,7 @@ def next():
     return 'OK'
 
 @app.route("/prev")
-def next():
+def prev():
     subprocess.Popen(['osascript', SCRIPT_TMP % 'prev'])
     return 'OK'
 
